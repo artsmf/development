@@ -13,10 +13,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
   tagline = "Violette Belle Example Site"
   author = "Susannah Fisher"
   description = "development site"
-  logoBig = "/images/osprey-logo.png"
-  logoSmall = "/images/osprey-logo.png"
-  favicon = "favicon.ico"
-  opengraphImage = "/images/osprey.png"
+  logoBig = "/images/vblogo.png"
+  logoSmall = "/images/vb-favicon-2020.png"
+  favicon = "vb-favicon-2020.ico"
+  opengraphImage = "/images/vblogo.png"
   email = ""
   googleTagManger = ""
   customCSS = false
@@ -49,12 +49,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
   lazyloading = true
 
 [[menu.main]]
-  name = "About"
-  url  = "/#about"
-  weight = 1
-[[menu.main]]
   name = "Work"
   url  = "/#work"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url  = "/#about"
   weight = 2
 [[menu.main]]
   name = "Blog"
